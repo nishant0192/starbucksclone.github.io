@@ -1,0 +1,358 @@
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+/* *{
+  transition: all 0.3s ease-in;
+} */
+
+.a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  /* user-drag: none;   */
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* ul > li:first-child {
+  text-decoration: underline green;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+} */
+
+.lis {
+  list-style: none;
+  font-size: 19px;
+  padding: 0px 1rem;
+  margin: 2px 15px;
+}
+
+.naav {
+  display: flex;
+  margin: 20px;
+}
+
+.lefts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+
+.rights {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aul {
+  display: flex;
+}
+
+#logoa {
+  width: 40px;
+}
+
+.nav-link {
+  text-decoration: none; /* Remove default underline */
+}
+
+/* Style for links when clicked */
+.nav-link.active {
+  text-decoration: underline green;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
+
+.profiles {
+  width: 50px;
+  margin-left: 70px;
+}
+
+.searchfo {
+  /* display:flex ;
+    align-items: center; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+.searchfo > img {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  padding: 4px 12px;
+  width: 44px;
+}
+
+#search {
+  border: none;
+  box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+  border-radius: 20px;
+  height: 30px;
+  width: 300px;
+  padding-left: 40px;
+}
+/* section 1 */
+
+section {
+  margin-top: 20px;
+  height: 100%;
+}
+
+.banners {
+  width: 100%;
+  background-color: #1e3932;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  left: 0;
+  position: absolute;
+}
+
+.km {
+  background-color: #1e3932;
+  color: white;
+  border: 2px solid white;
+  padding: 7px 17px;
+  border-radius: 32px;
+  margin-right: 150px;
+}
+.su {
+  font: 1em sans-serif;
+  margin-left: 100px;
+}
+
+.image_c {
+  margin-top: 60px;
+  width: 99.8%;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  flex-direction: column;
+}
+.item > img {
+  border-radius: 50%;
+  width: 120px;
+  margin: 20px 63px;
+  overflow: hidden;
+  margin-bottom: 0;
+  height: 108px;
+  width: 108px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #edebe9;
+  cursor: pointer;
+}
+
+.item > img:hover {
+  border: 3px solid #00754a;
+}
+
+.im {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  margin-left: 100px;
+}
+
+.cap {
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 14px;
+  font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+
+.about {
+  background-color: #edebe9;
+  height: 40vw;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.cardd {
+  width: 1280px;
+  height: 372px;
+  margin: 20px auto;
+}
+
+.card,
+.card > img {
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card-text {
+  color: white;
+}
+
+.card-title {
+  color: white;
+}
+
+.lm {
+  border: none;
+  height: 30px;
+  width: 150px;
+  border-radius: 17px;
+}
+
+img.card-img {
+  transition: all 0.2s ease-in-out;
+}
+
+img.card-img:hover {
+  filter: brightness(50%);
+}
+.card-title {
+  transition: all 0.2s ease-in-out;
+}
+
+/* .card-title:ho {
+  background: filer;
+} */
+
+.cc {
+  color: #00754a;
+  background-color: white;
+  padding: 2px 4px;
+  border: none;
+  border-radius: 8px;
+  margin-top: -13rem;
+  width: 95px;
+  height: 22px;
+  font-size: 12px;
+}
+
+.foot {
+  background-color: #0e382c;
+  height: 37vw;
+  width: 100%;
+  margin-top: 6rem;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #198754 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #198754;
+  border-radius: 0px;
+  border: 0px double #ffffff;
+}
+
+.foot h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  width: fit-content;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.foot {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.foot > div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.foot ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.foot-links {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.foot-links:hover {
+  color: grey;
+  transition: all 0.2s ease-in;
+}
+
+.sme {
+  display: flex;
+}
+
+.sme-links img {
+  width: 28px;
+  flex-direction: row;
+}
+
+.sme-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.app-links img {
+  width: 188px;
+}
+
+.app-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.legal-list {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border-top: 1px solid #a0a0a0;
+  background-color: #0e382c;
+  margin: -4rem auto;
+  padding-top: 20px;
+}
+
+.ll {
+  list-style: none;
+  color: white;
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+  font-size: 0.75em;
+  padding-right: 17px;
+  border-right: 1px solid #b3b3b3;
+}
+
+.ll>a:hover {
+  color: #a0a0a0;
+  cursor: pointer;
+}
+
+.ll>a{
+  text-decoration: none;
+  color: white;
+}
